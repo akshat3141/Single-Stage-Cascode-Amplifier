@@ -1,0 +1,104 @@
+magic
+tech scmos
+timestamp 1668097444
+<< nwell >>
+rect -22 -278 32 217
+<< ntransistor >>
+rect 2 -368 6 -308
+rect 2 -462 6 -402
+<< ptransistor >>
+rect 3 0 7 198
+rect 3 -264 7 -24
+<< ndiffusion >>
+rect -2 -312 2 -308
+rect -6 -368 2 -312
+rect 6 -312 11 -308
+rect 6 -361 15 -312
+rect 6 -365 11 -361
+rect 6 -368 15 -365
+rect -6 -458 2 -402
+rect -2 -462 2 -458
+rect 6 -406 11 -402
+rect 6 -462 15 -406
+<< pdiffusion >>
+rect -6 197 3 198
+rect -2 193 3 197
+rect -6 0 3 193
+rect 7 5 15 198
+rect 7 1 11 5
+rect 7 0 15 1
+rect -2 -28 3 -24
+rect -6 -264 3 -28
+rect 7 -247 15 -24
+rect 7 -251 11 -247
+rect 7 -260 15 -251
+rect 7 -264 11 -260
+<< ndcontact >>
+rect -6 -312 -2 -308
+rect 11 -312 15 -308
+rect 11 -365 15 -361
+rect -6 -462 -2 -458
+rect 11 -406 15 -402
+<< pdcontact >>
+rect -6 193 -2 197
+rect 11 1 15 5
+rect -6 -28 -2 -24
+rect 11 -251 15 -247
+rect 11 -264 15 -260
+<< psubstratepcontact >>
+rect -6 -479 -2 -475
+rect 11 -479 15 -475
+<< nsubstratencontact >>
+rect -6 207 -2 211
+rect 11 207 15 211
+<< polysilicon >>
+rect 3 198 7 202
+rect 3 -1 7 0
+rect 4 -5 7 -1
+rect 3 -6 7 -5
+rect 3 -24 7 -18
+rect 3 -265 7 -264
+rect 4 -269 7 -265
+rect 3 -270 7 -269
+rect 2 -308 6 -300
+rect 2 -375 6 -368
+rect 2 -395 6 -394
+rect 3 -399 6 -395
+rect 2 -402 6 -399
+rect 2 -469 6 -462
+<< polycontact >>
+rect 0 -5 4 -1
+rect 0 -269 4 -265
+rect -2 -374 2 -370
+rect -1 -399 3 -395
+<< metal1 >>
+rect -2 207 11 211
+rect -6 197 -2 207
+rect -4 -5 0 -1
+rect 11 -10 15 1
+rect -6 -14 15 -10
+rect -6 -24 -2 -14
+rect 15 -251 50 -247
+rect -4 -269 0 -265
+rect 11 -281 15 -264
+rect -6 -286 15 -281
+rect 46 -273 50 -251
+rect 46 -278 54 -273
+rect -6 -308 -2 -286
+rect 46 -298 50 -278
+rect 11 -302 50 -298
+rect 11 -308 15 -302
+rect -6 -374 -2 -370
+rect -5 -399 -1 -395
+rect 11 -402 15 -365
+rect -6 -475 -2 -462
+rect -2 -479 11 -475
+<< labels >>
+rlabel metal1 52 -275 52 -275 7 Vout
+rlabel metal1 -4 -372 -4 -372 1 Vbias3
+rlabel metal1 3 209 3 209 1 VDD
+rlabel metal1 5 -477 5 -477 1 GND
+rlabel metal1 -3 -397 -3 -397 1 Vin
+rlabel metal1 -2 -3 -2 -3 1 Vbias1
+rlabel metal1 -2 -267 -2 -267 1 Vbias2
+<< end >>

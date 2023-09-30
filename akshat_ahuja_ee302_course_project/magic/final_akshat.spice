@@ -1,0 +1,14 @@
+* SPICE3 file created from final_akshat.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 a_n6_n264# Vbias1 VDD VDD pfet w=198 l=4
++  ad=0 pd=0 as=0 ps=0
+M1001 Vout Vin GND Gnd nfet w=60 l=4
++  ad=0 pd=0 as=0 ps=0
+M1002 Vout Vbias2 a_n6_n264# VDD pfet w=240 l=4
++  ad=0 pd=0 as=0 ps=0
+** SOURCE/DRAIN TIED
+M1003 Vout Vbias3 Vout Gnd nfet w=60 l=4
++  ad=0 pd=0 as=0 ps=0
+C0 VDD 0 15.58fF **FLOATING
